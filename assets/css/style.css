@@ -3,6 +3,8 @@
     --secondary-color: #D9DCD6;
 }
 
+/* variables above */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -67,9 +69,13 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*Set all text in <p> to be 16px*/
+
 p {
     font-size: 16px;
 }
+
+/* Hero */
 
 .hero {
     height: 800px;
@@ -81,6 +87,8 @@ p {
 }
 
 /*Main Content - 2 Sections*/
+
+/*First Section*/
 
 .content-section {
     width: 75%;
@@ -115,6 +123,8 @@ p {
     margin-left: 25px;
 }
 
+/*Second Section*/
+
 .benefits-section {
     margin-right: 20px;
     padding: 20px;
@@ -143,6 +153,8 @@ p {
 }
 
 /* End of main */
+
+/*Footer Section*/
 
 .footer {
     padding: 30px;
