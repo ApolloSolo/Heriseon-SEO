@@ -1,3 +1,10 @@
+:root{
+    --primary-text-color: #FFF;
+    --secondary-color: #D9DCD6;
+}
+
+/* variables above */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,7 +12,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--secondary-color);
 }
 
 /*Start of header*/
@@ -13,7 +20,7 @@ body {
 .header {
     padding: 20px;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--primary-text-color);
 }
 
 .header h1 {
@@ -22,7 +29,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: var(--secondary-color);
 }
 
 /*End header*/
@@ -46,7 +53,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -62,9 +69,13 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*Set all text in <p> to be 16px*/
+
 p {
     font-size: 16px;
 }
+
+/* Hero */
 
 .hero {
     height: 800px;
@@ -77,6 +88,8 @@ p {
 
 /*Main Content - 2 Sections*/
 
+/*First Section*/
+
 .content-section {
     width: 75%;
     display: inline-block;
@@ -88,7 +101,7 @@ p {
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 .artical-info img {
@@ -110,6 +123,8 @@ p {
     margin-left: 25px;
 }
 
+/*Second Section*/
+
 .benefits-section {
     margin-right: 20px;
     padding: 20px;
@@ -122,7 +137,7 @@ p {
 
 .margin-b-text-white{
     margin-bottom: 32px;
-    color: #ffffff; 
+    color: var(--primary-text-color); 
 }
 
 .margin-b-text-white h3 {
@@ -138,6 +153,8 @@ p {
 }
 
 /* End of main */
+
+/*Footer Section*/
 
 .footer {
     padding: 30px;
